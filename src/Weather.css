@@ -1,0 +1,55 @@
+.Weather {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Weather form {
+    margin-top: 1rem;
+}
+
+.Weather form input {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 70%;
+    margin-right: -1px; 
+}
+
+.Weather form button {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    background-color: #FFD700;
+    color: black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: calc(30% - 2px); 
+    box-sizing: border-box;
+}
+
+.Weather form select {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.Weather button.getLocationButton {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #87CEEB; 
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}

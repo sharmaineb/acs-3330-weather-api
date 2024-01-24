@@ -1,0 +1,22 @@
+.WeatherDisplay {
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.WeatherDisplay h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.WeatherDisplay small {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.WeatherDisplay p {
+    margin: 0.5rem 0;
+    color: #333;
+}
